@@ -83,6 +83,7 @@ section h2 {
   font-size: 12px;
   padding: 8px 10px;
   color: #222222;
+  border: 2px 2px #fdcc52;
 }
 
 #mainNav .navbar-nav > li > a {
@@ -178,6 +179,12 @@ header.masthead .device-container {
 
 header.masthead .device-container .screen img {
   border-radius: 3px;
+}
+
+@media (hover: none) {
+  #van-img-mobile {
+    height: 60vh;
+  }
 }
 
 @media (min-width: 992px) {
